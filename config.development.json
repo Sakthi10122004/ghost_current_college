@@ -1,0 +1,43 @@
+{
+  "url": "http://localhost:2368/",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "user": "ghostuser",
+      "password": "Sakthi@2004",
+      "database": "db_gh",
+      "charset": "utf8"
+    }
+  },
+
+  "mail": {
+    "transport": "SMTP",
+    "options": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "sakthikaribeeran@gmail.com",
+        "pass": "yeyv qjns xzki rnvc"
+      }
+    }
+    },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "security": {
+    "staffDeviceVerification": false
+  },
+  "paths": {
+    "contentPath": "/home/ghostuser/ghost-cms/ghost-local/content"
+  }
+}
